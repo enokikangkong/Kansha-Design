@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title> Kansha </title>
+	<link rel="icon" type="image/x-icon" href="images/favicon.ico">
+
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="site.css">
+	<!---GOOGLE FONT-->
+
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Vollkorn&display=swap" rel="stylesheet">
+    
+        <!---AWESOME FONT-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />"
+        <link rel="stylesheet" href="css/style.css">
+
+
+</head>
+<body>
+<div>
+<div id="container">
+	<header>
+		<a href="index.html"><img src="images/mainpage/mainpage_logo.svg" width="100%" height="100%" id="floatleft"></a>
+	</header>
+	<div id="menutab">
+		<nav id="nav">
+			<a href="index.html#image2">ABOUT</a>
+			<a href="menu.html">MENU</a>
+			<a href="index.html#review">PRESS</a>
+			<a href="contact.html">CONTACT</a>
+		</nav>
+	</div>
+	<div id="reservation">
+		<div id="reserve-button">
+		<nav id="nav2">
+			<a href="reservation.html" style="color: #EFB57F;">RESERVATION</a>
+		</nav>
+		</div>
+	</div>
+	</div>
+	<hr style="color: #cb4e35; background-color:#cb4e35;">
+
+	<div id="container">
+	<div id="spliced">
+	<img src="images/reservations/mainpage_splicedimage.svg" width="100%" height="100%" id="floatleft">
+	</div>
+	
+	<div>
+	<h2 style="font-family: Vollkorn; color: #cb4e35; margin-left: 30px;">Reservation Form</h2>
+    <form action="">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" style="width:600px;"required><br><br><br>
+
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone" name="phone" style="width:600px;" required><br><br><br>
+
+        <label for="guests">Number of Guests:</label>
+        <input type="number" id="guests" name="guests" min="1" required><br><br>
+
+        <label for="date">Date:</label>
+        <input type="date" id="date" name="date" required><br><br>
+
+        <label for="time">Time:</label>
+        <input type="time" id="time" name="time" required><br><br>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
+
+        <input type="submit" value="Submit">
+	</form>
+	</div>
+	</div>
+</div>
+</body>
+</html>

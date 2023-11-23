@@ -1,0 +1,276 @@
+
+/* for cs2024*/
+body {
+			
+			
+			background-color: #f8f9f0;
+			display: flex;
+			justify-content: center; /* Center horizontally */
+			align-items: center;
+	  	}
+		
+
+		
+#container {
+	display: flex;
+}
+
+#menutab {
+	height: 60px;
+	background-color: #f8f9f0;
+	color: #cb4e35;
+	float: center;
+	text-align: right;
+	font-family: "Vollkorn", serif;
+	padding-top: 80px;
+	font-size: 90%;
+	width: 600px;
+}
+
+#reservation {
+	position: relative;
+	height: 80px;
+	width: 18%;
+	background-color: #f8f9f0;
+	color: #cb4e35;
+	float: left;
+	padding-top: 48px;
+	
+}
+
+#reserve-button {
+	border: 1px solid grey;
+	margin-top: 25px;
+	margin-right: 25px;
+	margin-left: 10px;
+	padding-right: 15px;
+	padding-top: 5px;
+	height: 22px;
+	width: 140px;
+	font-size: 15px;
+	
+	color: #cb4e35;
+	font-family: "Vollkorn", serif;
+}
+
+#reserve-button2 {
+	border: 1px solid grey;
+	margin-top: 25px;
+	margin-right: 25px;
+	margin-left: 10px;
+	padding-left: 10px;
+	padding-top: 5px;
+	height: 30px;
+	width: 200px;
+	font-size: 20px;
+	
+	color: #cb4e35;
+	font-family: "Vollkorn", serif;
+}
+
+#nav a{
+	color: #cb4e35;
+}
+
+#nav3 a{
+	color: #cb4e35;
+}
+
+#subheading {
+	height: 40px;
+	background-repeat: no-repeat;
+	background-color: #f8f9f0;
+	float: left;
+	text-align: center;
+	font-family; "Vollkorn", serif;
+	color: #cb4e35;
+	padding-top: 0px;
+	padding-bottom: 20px;
+	font-size: 80%;
+	border: 2px;
+	border-style: solid;
+}
+
+#image2 {
+	padding: 40px 0px 40px 80px;
+	width: 50%;
+}
+
+#title {
+	width: 50%;
+	text-align: center;
+	padding-top: 250px;
+}
+
+#aboutus {
+	float: left;
+	font-family: "Montserrat", sans-serif;
+	width: 50%;
+	height: 400px;
+	margin-top: 150px;
+}	
+
+#review {
+	padding: 20px 20px 20px 20px;
+	background-color: white;
+	font-family: "Montserrat", sans-serif;
+	margin-top: 20px;
+}
+
+#openinghours {
+	width: 50%;
+	padding-left: 20px;
+	font-family: "Montserrat", sans-serif;
+}
+
+#phone {
+	width: 17%;
+	float: left;
+	
+	font-family: "Montserrat", sans-serif;
+}
+
+#email {
+	width: 17%;
+	float: left;
+	
+	font-family: "Montserrat", sans-serif;
+}
+
+#icons {
+	color: #cb4e35;
+	width: 16%;
+	padding-top: 30px;
+}
+
+#contactus {
+	font-family: "Vollkorn", serif;
+	width: 50%;
+	padding-left: 50px;
+}
+
+#contactinfo {
+	font-family: "Montserrat", sans-serif;
+}
+
+#map {
+	padding: 100px 30px 30px 30px;
+	width: 500px;
+}
+
+#spliced {
+	margin-top: 30px;
+	width: 40%;
+}
+
+#onlinereserve {
+	padding-top: 100px;
+	margin-left: 100px;
+}
+
+a:link {
+  color: #cb4e35;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #cb4e35;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #cb4e35;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: #cb4e35;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+
+table {
+  padding: 30px 30px 30px 30px;
+}
+
+
+
+td {
+	margin-top: 20px;
+	border: 20px solid #f8f9f0;
+	width: 500px;
+	height: 120px;
+	padding-left: 30px;
+	padding-right: 20px;
+}
+
+hr {
+	color: #cb4e35;
+	color: #cb4e35;
+}
+
+header {	
+			height: 140px;
+			background-color: #f8f9f0;
+			float: left;
+			width: 38%;
+		}
+		
+footer {	font-size:70%;
+			text-align: center;
+			padding-bottom:5px;
+			padding-top:5px;
+			background-color: #f8f9f0;
+			font-family: "Montserrat", sans-serif;
+		}
+		
+nav a {	margin: 30px;
+		color: #CDAB61;
+		text-decoration: none;}
+		
+nav2 a {	margin: 30px;
+		color: #FFFFFF;
+		text-decoration: none;
+		border-style: solid;
+		border: 1px;
+		}
+		
+
+span {
+		font-weight: normal;
+}
+
+form {
+	width: 600px;
+	float: left;
+	padding-top: 20px;
+	margin-left: 30px;
+}
+
+        label {
+            display: block;
+            margin-top: 10px;
+        }
+        input[type="text"], input[type="email"], input[type="tel"], input[type="number"], select, textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+            margin-top: 6px;
+        }
+        input[type="submit"] {
+            width: 100%;
+            padding: 10px;
+            background-color: #cb4e35;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
